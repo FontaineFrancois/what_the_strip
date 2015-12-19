@@ -1,0 +1,66 @@
+body {
+  margin:0;
+  border:0;
+}
+
+/*javascript*/
+.fixNavigation {
+  transition: 10s;
+  position: fixed;
+  top: 0;
+}
+/*la barre de navigation principale*/
+#nav_header_1 {
+  height:68px;
+  background-color: grey;
+  width:100%;
+  opacity:0,7;
+}
+.div_nav_header_1 {
+  float:right;
+  margin-right: 90px;
+}
+.ul_nav_header_1 li{
+  display:inline-block;
+  margin-right:10px;
+  line-height: 35px;
+}
+.li_nav_header_1 {
+  color:white;
+  font-size:16px;
+  margin-right:15px;
+}
+/*la seconde barre de navigation, avec un position:fixed en css et une fonction js pour maintenir sa présence en haut de l'écran durant le scroll*/
+#nav_header_2 {
+  display:inline-block;
+  height:65px;
+  width:100%;
+  background-color: black;
+  z-index: 5;
+}
+.div_nav_header_2_accueil {
+  float:left;
+  margin-left: 35px;
+}
+.ul_nav_header_2_accueil li{
+  display:inline-block;
+  line-height:35px;
+}
+.li_nav_header_2_accueil {
+  font-size:22;
+  color:white;
+}
+.div_nav_header_2 {
+  float:right;
+  margin-right: 85px;
+}
+.ul_nav_header_2 li{
+  display:inline-block;
+  margin-right:10px;
+  line-height: 32px;
+}
+.li_nav_header_2 {
+  color:white;
+  font-size:14px;
+  margin-right:20px;
+}
